@@ -1,13 +1,9 @@
-Here’s a complete `README.md` file for your project:
-
----
-
 ### 📄 `README.md`
 
 ```markdown
 # WhatsApp Attendance Notifier 📱📊
 
-A Python-based automation tool to notify parents via **WhatsApp** when a student is marked **Absent** or **Left Early** in the attendance sheet. The messages are sent using **Selenium WebDriver** and **WhatsApp Web**.
+A Python-based automation tool to notify parents via WhatsApp when a student is marked Absent or Left Early in the attendance sheet. The messages are sent using **Selenium WebDriver** and **WhatsApp Web**.
 
 ---
 
@@ -27,9 +23,9 @@ Your attendance Excel file should have the following columns:
 
 | Name       | Status   | Parent Number     |
 |------------|----------|-------------------|
-| John Doe   | Present  | +91XXXXXXXXXX     |
-| Jane Smith | Absent   | +91YYYYYYYYYY     |
-| Max Lee    | Left     | +91ZZZZZZZZZZ     |
+| John Doe   | Present  | XXXXXXXXXX     |
+| Jane Smith | Absent   | YYYYYYYYYY     |
+| Max Lee    | Left     | ZZZZZZZZZZ     |
 
 ✅ Use `Absent` or `Left` (case-insensitive) to trigger a message.
 
@@ -86,19 +82,9 @@ python attendance_notifier.py
 * Don't close Chrome until all messages are sent.
 * Use responsibly to avoid being flagged for spam by WhatsApp.
 
----
-
-## 📌 To-Do (Optional Enhancements)
-
-* Add log file of sent messages
-* Support multiple message templates
-* Add email fallback support
-
----
-
 ## 🧑‍💻 Author
 
-**Your Name Here**
+**Sushank thatipally**
 Feel free to fork, enhance, and contribute!
 
 ---
